@@ -37,6 +37,8 @@ public class MoveablePoint extends Point{
         float[] array = {this.getxSpeed(),this.getySpeed()};
         return array;
     }
+
+
     public MoveablePoint move(){
         this.setX(this.getX()+this.getxSpeed());
         this.setY(this.getY()+this.getySpeed());
